@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    background-color: hotpink;
+
+}
+.card{
+    width: 22%;
+    height: 250px;
+    background-color: lightgreen;
+    display: inline-block;
+}
+
+      
+      /* media queries for Mobile */
+
+@media (max-width:420px){
+    .card{
+        width: 100%;
+        background-color: lightyellow;
+    }
+    .container{
+        background-color: limegreen;
+    }
+}
